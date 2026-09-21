@@ -1,0 +1,43 @@
+name: frostborngame
+description: "Frostborn Legends - free-to-play social slots with fun coins."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  shared_preferences: ^2.3.3
+  audioplayers: ^6.1.0
+  webview_flutter: ^4.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/game/ui/
+    - assets/game/bg/
+    - assets/game/symbols/
+    - assets/game/items/
+    - assets/game/badges/
+    - assets/game/chars/
+    - assets/game/wheels/
+    - assets/game/audio/
+
+flutter_launcher_icons:
+  # Only the legacy pre-API-26 mipmaps are generated here. The adaptive icon in
+  # mipmap-anydpi-v26 is hand-written so it can share one <adaptive-icon> with
+  # the Android 12+ splash; leaving adaptive_icon_* out keeps this tool from
+  # overwriting that file on the next run.
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 23

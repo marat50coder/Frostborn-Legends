@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="launch_sky">#060B1C</color>
+    <!-- Backdrop behind the launcher/splash art. Sampled from the deep navy
+         at the top of the icon, so the corners a round mask crops read as a
+         frame and the splash blends into launch_sky when the app takes over. -->
+    <color name="launch_bg">#00082F</color>
+</resources>
