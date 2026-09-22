@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "895139082214",
+    "project_id": "frostbornlegends-6a2a5",
+    "storage_bucket": "frostbornlegends-6a2a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895139082214:android:e1667846258c87835c3027",
+        "android_client_info": {
+          "package_name": "com.frostbornlegends.frostborngame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNscBylSqAJDmoa8u8yTnKKZGMBywJH_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

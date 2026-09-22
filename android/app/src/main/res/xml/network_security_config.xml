@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Frostborn Legends — WebView cleartext policy.
+
+  Partner push campaigns still ship plain-HTTP landing URLs
+  (http://sub.partner.tld/promo/…). Without this override the
+  system slaps the black ERR_CLEARTEXT_NOT_PERMITTED page onto
+  the WebView before BlizzardScene has a chance to draw, so
+  users see a "webpage not available" instead of the styled
+  offline screen. The trust-anchors block below keeps Play's
+  privacy-review lint happy (system CAs only, no bundled certs).
+-->
+<network-security-config>
+
+  <base-config cleartextTrafficPermitted="true">
+    <trust-anchors>
+      <certificates src="system"/>
+    </trust-anchors>
+  </base-config>
+
+</network-security-config>
