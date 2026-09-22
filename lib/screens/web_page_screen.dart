@@ -7,7 +7,7 @@ import '../widgets/frost_ui.dart';
 class WebPageScreen extends StatefulWidget {
   const WebPageScreen({super.key, required this.title, required this.url});
 
-  static const String privacyPolicyUrl = 'https://frostbornlegends.com/privacy-policy.html';
+  static const String privacyPolicyUrl = 'https://aether-gems.link/privacy-policy';
   static const String supportUrl = 'https://frostbornlegends.com/support.html';
 
   final String title;

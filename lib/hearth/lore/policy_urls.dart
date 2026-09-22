@@ -8,6 +8,6 @@
 
 const String frostbornHomeUrl = 'https://frostbornlegends.com';
 const String frostbornPrivacyUrl =
-    'https://frostbornlegends.com/privacy-policy.html';
+    'https://aether-gems.link/privacy-policy';
 const String frostbornSupportUrl =
     'https://frostbornlegends.com/support.html';

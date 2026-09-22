@@ -1,7 +1,7 @@
 name: frostborngame
 description: "Frostborn Legends — free-to-play social slots with fun coins, bonus wheels and daily rewards."
 publish_to: 'none'
-version: 1.0.1+3
+version: 1.0.1+4
 
 environment:
   sdk: ^3.9.0
